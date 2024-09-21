@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - CAC The Fitness Club</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="background">
+        <div class="contact-container">
+            <h1>Contact Us</h1>
+            <div class="contact-info">
+                <h2>Get in Touch</h2>
+                <p><strong>Phone:</strong> 9909573573</p>
+                <p><strong>Email:</strong> contact@cacfitnessclub.com</p>
+            </div>
+
+            <div class="feedback-form">
+                <h2>Give Feedback</h2>
+                <form action="/submit_feedback" method="POST">
+                    <div class="input-group">
+                        <label for="feedback-name">Your Name:</label>
+                        <input type="text" id="feedback-name" name="name" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="feedback-email">Your Email:</label>
+                        <input type="email" id="feedback-email" name="email" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="feedback-message">Your Feedback:</label>
+                        <textarea id="feedback-message" name="message" rows="5" required></textarea>
+                    </div>
+                    <div class="input-group">
+                        <button type="submit" class="submit-btn">Submit Feedback</button>
+                    </div>
+                </form>
+            </div>
+
+           
+            </div>
+        </div>
+    </div>
+</body>
+</html>
